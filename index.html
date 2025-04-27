@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To DO List</h1>
+      <section class="inputs-section">
+        <input
+          type="text"
+          class="input-style"
+          id="todo-title"
+          placeholder=" Type Title of task" />
+        <textarea
+          name=""
+          class="input-style"
+          id="todo-description"
+          placeholder="Detail of your task . . . . ."></textarea>
+        <button class="btn" id="add-btn">Add</button>
+        <button class="btn none" id="update-btn">confirm update</button>
+      </section>
+      <section class="search-section">
+        <input
+          class="input-style"
+          id="search-input"
+          type="text"
+          placeholder="Search....." />
+          <!-- <img id="search-icon" src="./assets/search4.png" alt=""> -->
+      </section>
+      <section class="cards-section"></section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
